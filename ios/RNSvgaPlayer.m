@@ -173,6 +173,8 @@ RCT_EXPORT_VIEW_PROPERTY(onPercentage, RCTBubblingEventBlock)
 
 - (UIView *)view {
     SVGAPlayer *aPlayer = [[SVGAPlayer alloc] init];
+    aPlayer.clipsToBounds = NO;
+    aPlayer.contentMode = UIViewContentModeScaleAspectFit;
     aPlayer.delegate = aPlayer;
     return aPlayer;
 }
