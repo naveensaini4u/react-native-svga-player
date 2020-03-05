@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.dependency "React"
   # ...
-	s.dependency "https://github.com/naveensaini4u/SVGAPlayer-iOS.git"
+	s.dependency "SVGAPlayer"
 
 end
 
